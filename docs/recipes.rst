@@ -50,7 +50,7 @@ Scanner data (blocking)
 
 .. code-block:: python
 
-    allParams = ib.reqScannerParameters())
+    allParams = ib.reqScannerParameters()
     print(allParams)
 
     sub = ScannerSubscription(
